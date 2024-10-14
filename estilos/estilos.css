@@ -1,0 +1,29 @@
+div{ 
+    width: 100px;
+    height: 100px;
+    background: rgb(78, 78, 227);
+    color: rgb(255, 0, 208);
+    font-size: 30px;
+    
+}
+
+/*pocsionamiento relativo pocisona la caja en cualquier lugar dejando su espacio y nadie opcupar
+lugar dejando su espacio y nadie puede ocupar su espacio*/
+
+.caja_padre{
+    width: 500px;
+    height: 500px;
+    background: black;
+    position: relative;
+}
+
+.caja{
+    /*pocision relativa*/
+    /*povicion absolujta*/
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+}
+
